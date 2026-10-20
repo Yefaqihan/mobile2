@@ -1,0 +1,44 @@
+name: resq
+description: ResQ disaster emergency and survival companion
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  http: ^1.6.0
+  sensors_plus: ^6.1.0
+  light: ^4.0.0
+  local_auth: ^2.3.0
+  shared_preferences: ^2.3.2
+  crypto: ^3.0.6
+  intl: ^0.20.2
+  geolocator: ^13.0.1
+  uuid: ^4.5.1
+  connectivity_plus: ^7.3.2
+  supabase_flutter: ^2.18.3
+  flutter_dotenv: ^6.0.1
+  flutter_secure_storage: ^11.2.0
+  image_picker: ^1.2.4
+  url_launcher: ^6.3.3
+  file_picker: ^13.1.0
+  audioplayers: ^6.8.1
+  torch_light: ^2.0.0
+  volume_controller: ^3.7.1
+  flutter_foreground_task: ^11.0.3
+  vibration: ^3.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/sounds/alarm.mp3
